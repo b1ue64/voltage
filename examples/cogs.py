@@ -26,9 +26,9 @@ def setup(client) -> commands.Cog:
     return test  # Finally, return the cog object.
 
 
-# To load a Cog to the client you run `client.add_extension(path, *args, **kwargs)` with the path being the Python dotpath to your file, args and kwargs are optional.
+# To load a Cog into the client you, run `client.add_extension(path, *args, **kwargs)` with the path being the Python dotpath to your file. The args and kwargs are optional.
 
-# discord.py style subclassed cogs are also supported but aren't that tested yet.
+# discord.py style subclassed cogs are also supported but they aren't well tested yet.
 
 
 class MyCog(commands.Cog):
